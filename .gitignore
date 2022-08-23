@@ -1,3 +1,6 @@
+
+/content.md
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node,visualstudiocode
 
@@ -6,7 +9,6 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-content.md
 
 # Icon must end with two \r
 Icon
