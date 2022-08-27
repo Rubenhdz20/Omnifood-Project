@@ -58,3 +58,14 @@ body {
   background-color: aliceblue;
 }
 */
+
+.hero {
+  display: grid;
+  max-width: 130rem;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero_img {
+  width: 100%;
+}
