@@ -59,11 +59,31 @@ body {
 }
 */
 
+.section_hero {
+  background-color: #fdf2e9;
+}
+
 .hero {
   display: grid;
+  align-items: center;
   max-width: 130rem;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
+}
+
+.heading_primary {
+  margin-bottom: 3.2rem;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.hero_description {
+  margin-bottom: 4.8rem;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .hero_img {
