@@ -16,7 +16,7 @@ Default: 1
 
 -Primary: #e67e22
 
--Tints: 
+-Tints: #fdf2e9
 
 -Shades:
 
@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -60,15 +60,17 @@ body {
 */
 
 .section_hero {
+  padding: 9.6rem 0;
   background-color: #fdf2e9;
 }
 
 .hero {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 9.6rem;
   max-width: 130rem;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
 }
 
 .heading_primary {
@@ -86,6 +88,48 @@ body {
   line-height: 1.5;
 }
 
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+  /* Put transition on original state */
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.btn--full:active,
+.btn--full:hover {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:active,
+.btn--outline:hover {
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
 .hero_img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem;
 }
