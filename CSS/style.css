@@ -18,7 +18,7 @@ Default: 1
 
 -Tints: #fdf2e9
 
--Shades:
+-Shades: #cf711f
 
 -Accents:
 
@@ -34,6 +34,8 @@ Default: 1
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+
+/* GENERAL */
 
 * {
   margin: 0;
@@ -58,6 +60,8 @@ body {
   background-color: aliceblue;
 }
 */
+
+/* HERO SECTION*/
 
 .section_hero {
   padding: 9.6rem 0;
@@ -133,4 +137,37 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+.delivered_meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered_imgs {
+  display: flex;
+}
+
+.delivered_imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-right: -1.6rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered_imgs img:last-child {
+  margin: 0;
+}
+
+.delivered_text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered_text span {
+  font-weight: 700;
+  color: #cf711f;
 }
