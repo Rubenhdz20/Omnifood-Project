@@ -61,21 +61,7 @@ body {
 }
 */
 
-/* HERO SECTION*/
-
-.section_hero {
-  padding: 9.6rem 0;
-  background-color: #fdf2e9;
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 9.6rem;
-  max-width: 130rem;
-  margin: 0 auto;
-}
+/* GENERAL REUSABLE COMPONENTS */
 
 .heading_primary {
   margin-bottom: 3.2rem;
@@ -84,12 +70,6 @@ body {
   line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
-}
-
-.hero_description {
-  margin-bottom: 4.8rem;
-  font-size: 2rem;
-  line-height: 1.5;
 }
 
 .btn:link,
@@ -131,12 +111,51 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.hero_img {
-  width: 100%;
-}
-
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  /* Because we want the navigation to be sticky later */
+  height: 9.6rem;
+  background-color: #fdf2e9;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* HERO SECTION*/
+
+.section_hero {
+  padding: 4.8rem 0 9.6rem 0;
+  background-color: #fdf2e9;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero_description {
+  margin-bottom: 4.8rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.hero_img {
+  width: 100%;
 }
 
 .delivered_meals {
