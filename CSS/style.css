@@ -131,6 +131,12 @@ body {
   height: 2.2rem;
 }
 
+/* NAVIGATION*/
+
+.main_nav--list {
+  list-style: none;
+}
+
 /* HERO SECTION*/
 
 .section_hero {
