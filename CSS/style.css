@@ -8,9 +8,15 @@
 -Font Weights:
 
 Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
 -Line Heights: 
+
 Default: 1
+Small: 1.05
+Paragraph default: 1.6
 
 -- 02 COLORS
 
@@ -134,7 +140,38 @@ body {
 /* NAVIGATION*/
 
 .main_nav--list {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
   list-style: none;
+}
+
+.main_nav--link:link,
+.main_nav--link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main_nav--link:hover,
+.main_nav--link:active {
+  color: #cf711f;
+}
+
+.main_nav--link.nav-cta:link,
+.main_nav--link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main_nav--link.nav-cta:hover,
+.main_nav--link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /* HERO SECTION*/
@@ -195,4 +232,24 @@ body {
 .delivered_text span {
   font-weight: 700;
   color: #cf711f;
+}
+
+/* HOW IT WORKS */
+
+.section_how {
+  padding: 9.6rem 0;
+  background-color: #cf711f;
+}
+
+.section_how div:nth-child(1) {
+  background-color: #1f8fcf;
+}
+.section_how div:nth-child(2) {
+  background-color: #1f8fcf;
+}
+.section_how div:nth-child(1) {
+  background-color: #1f8fcf;
+}
+.section_how div:nth-child(1) {
+  background-color: #1f8fcf;
 }
