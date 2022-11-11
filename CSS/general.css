@@ -70,6 +70,7 @@ Meidum: 11px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -77,6 +78,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /*
@@ -104,9 +106,9 @@ body {
   margin-bottom: 0;
 } */
 
-.grid:not(:last-child) {
+/* .grid:not(:last-child) {
   margin: 9.6rem;
-}
+} */
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
