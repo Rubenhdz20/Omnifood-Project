@@ -119,6 +119,7 @@ decrease spacing in the section(paddings)
     /* MOBILE */
     .btn-mobile-nav {
         display: block;
+        z-index: 999;
     }
 
     .main-nav {
