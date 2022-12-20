@@ -2,7 +2,7 @@
 
 Final layout:
 
-https://omnifood-ruben1.netlify.app/
+https://omnifood-aiweb.netlify.app
 
 
 ## About Omnifood
