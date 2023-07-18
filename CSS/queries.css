@@ -1,6 +1,6 @@
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1 rem = 1em = 16px */
 
-/* Below 1344px (Samaller desktops) */
+/* Below 1344px (Smaller desktops) */
 
 @media (max-width: 84em) {
     .hero {
