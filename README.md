@@ -2,7 +2,7 @@
 
 ## About Omnifood
 
-In this project I have learned to improve my layout skills with methodologies such as BEM to be able to give a better structuring to the layout of the page, also to understand the responsive design that today is widely used with the mobile first methodology, to be able to apply animations for a better flow on the page making a cleaner navigation.
+In this project, I enhanced my web layout skills by adopting the BEM (Block Element Modifier) methodology, which significantly improved the structure and readability of my page designs. I delved into responsive design practices, focusing on the mobile-first approach to ensure optimal usability across various devices. Additionally, I incorporated CSS animations to enrich user interactions and facilitate smoother navigation throughout the site. These skills not only bolstered my ability to create aesthetically pleasing and functional websites but also deepened my understanding of modern web development techniques that are essential for today’s mobile-centric world.
 
 
 ### Frontend  
